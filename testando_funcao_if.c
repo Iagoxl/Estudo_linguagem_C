@@ -3,14 +3,14 @@
 #include <locale.h>
 
 int main(void){
-	setlocale(LC_ALL, "Portuguese"); //função apra deixar a exibição na linguagem desejada
+	setlocale(LC_ALL, "Portuguese"); //funÃ§Ã£o para deixar a exibiÃ§Ã£o na linguagem desejada
 	
 	int  res, num1, num2, op; //Variavies inteira
 	
-	printf ("*********Digite uma das opções********* \n 1-Soma \n 2-Subtração \n");
+	printf ("*********Digite uma das opÃ§Ãµes********* \n 1-Soma \n 2-SubtraÃ§Ã£o \n");
 		scanf("%d", &op);
 
-	if (op ==1){ //Nesse if foi fieto uma "verificação", para que o usuario possa escolher a opções soma
+	if (op ==1){ //Nesse if foi feito uma "verificaÃ§Ã£o", para que o usuario possa escolher a opÃ§Ãµes soma
 	
 		printf ("*********Soma********* \nDigite um numeo: ");
 			scanf("%d", &num1);
@@ -19,22 +19,22 @@ int main(void){
 			scanf("%d", &num2);
 		
 		res = (num1 + num2);
-		printf ("O resultado da soma é:  %d", res);
+		printf ("O resultado da soma Ã©:  %d", res);
 		
-	}else if (op ==2) { //Nesse if foi fieto uma "verificação", para que o usuario possa escolher a opções subtração
+	}else if (op ==2) { //Nesse if foi feito uma "verificaÃ§Ã£o", para que o usuario possa escolher a opÃ§Ãµes subtraÃ§Ã£o
 		
-		printf ("*********Subtração********* \nDigite um numeo: ");
+		printf ("*********SubtraÃ§Ã£o********* \nDigite um numeo: ");
 			scanf("%d", &num1);
 			
 		printf ("Digite um numeo: ");
 			scanf("%d", &num2);
 			
 		res = (num1 - num2);
-		printf ("O resultado da subtração é:  %d", res);
+		printf ("O resultado da subtraÃ§Ã£o Ã©:  %d", res);
 			
 	}else {
 		
-		printf("Digite uma das opções valida!!"); //Caso o usuario não digitar nenhuma das opções ira exibir essa mensagem na tela
+		printf("Digite uma das opÃ§Ãµes valida!!"); //Caso o usuario nÃ£o digitar nenhuma das opÃ§Ãµes ira exibir essa mensagem na tela
 	}
 
 return 0;
